@@ -55,7 +55,30 @@ border-radius: 2rem;
 }
 .hightlights{
     width: 40rem;
+    
+}
+.socials{
 
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    /* border: 2px solid white; */
+}
+.socialicon{
+    display: flex;
+    gap: 3rem;
+    /* border: 2px solid white; */
+
+}
+#socialsicon{
+    height: 3rem;
+    width: 3rem;
+    /* border: 2px solid white; */
+}
+.techstack-icon{
+    
+    height: 3rem;
+    width: 3rem;
 }
 
 .experiance{
