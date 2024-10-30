@@ -1,7 +1,4 @@
-/* *{
-    margin: 0%;
-    padding: 0%;
-} */
+
 body{
     background-color: #1A1A1A;
     /* background-color:#E9DCC9; */
@@ -12,16 +9,63 @@ body{
     scrollbar-width: none;
     overflow: auto; /* Allows scrolling */
 }
-
-
 body::-webkit-scrollbar,
 html::-webkit-scrollbar {
     display: none; /* Hides scrollbar in Chrome, Safari, and Edge */
 }
+
+
 .container{
+    width: 60rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     border: 2px solid white;
+}
+
+
+nav{
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    padding: 2rem;
+    font-size: large;
+    border: 2px solid grey;
+border-radius: 2rem;
+}
+
+.pic-name{
+    width: 40rem;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid white; */
+    gap: 1rem;
+}
+.nameWithDesignation{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+#profile-pic{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+.hightlights{
+    width: 40rem;
+
+}
+
+.experiance{
+    width: 40rem;
+    border: 2px solid white;
+    /* overflow: auto; */
+    
+}
+.techstack{
+    width: 40rem;
+    border: 2px solid white;
+
 }
