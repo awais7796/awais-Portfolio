@@ -1,6 +1,6 @@
 
 body{
-    background-color: #1A1A1A;
+    background-color: #191919;
     /* background-color:#E9DCC9; */
     color: white;
     display: flex;
@@ -9,6 +9,7 @@ body{
     scrollbar-width: none;
     overflow: auto; /* Allows scrolling */
 }
+
 body::-webkit-scrollbar,
 html::-webkit-scrollbar {
     display: none; /* Hides scrollbar in Chrome, Safari, and Edge */
@@ -20,8 +21,10 @@ html::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    border: 2px solid white;
+    /* border: 0.2px solid rgb(160, 160, 160); */
+    background-color: #191919;
 }
 
 
@@ -43,15 +46,17 @@ border-radius: 2rem;
     /* border: 2px solid white; */
     gap: 1rem;
 }
-.nameWithDesignation{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-}
+
 #profile-pic{
     height: 5rem;
     width: 5rem;
     border-radius: 50%;
+}
+
+.nameWithDesignation{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 .hightlights{
     width: 40rem;
@@ -68,27 +73,36 @@ border-radius: 2rem;
     display: flex;
     gap: 3rem;
     /* border: 2px solid white; */
-
+    
 }
+
 #socialsicon{
     height: 3rem;
     width: 3rem;
     /* border: 2px solid white; */
 }
-.techstack-icon{
-    
-    height: 3rem;
-    width: 3rem;
-}
-
-.experiance{
-    width: 40rem;
-    border: 2px solid white;
-    /* overflow: auto; */
-    
-}
 .techstack{
     width: 40rem;
-    border: 2px solid white;
-
+    /* border: 2px solid white;  */
 }
+#techstack-icons{
+    
+    display: flex;
+    gap: 1rem;
+}
+
+.techstack-icon{
+    /* color: rgb(21, 91, 153); */
+    filter: brightness(0) invert(1);
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+
+.experiance{
+    width: 45rem;
+    /* border: 2px solid white; */
+    overflow: auto;
+}
+    
