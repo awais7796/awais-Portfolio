@@ -1,0 +1,27 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+body{
+    background-color: #1A1A1A;
+    /* background-color:#E9DCC9; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    scrollbar-width: none;
+    overflow: auto; /* Allows scrolling */
+}
+
+
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in Chrome, Safari, and Edge */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+}
