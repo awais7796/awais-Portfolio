@@ -62,6 +62,17 @@ border-radius: 2rem;
     width: 40rem;
     
 }
+
+#wave-line{
+    /* margin: 1.5rem; */
+    width: 90px;
+    height:10 px;
+    /* border: 2px solid white; */
+    filter: brightness(0) invert(5);
+}
+.wave-line{
+    width: 40rem;
+}
 .socials{
 
     display: flex;
@@ -73,6 +84,7 @@ border-radius: 2rem;
     display: flex;
     gap: 3rem;
     /* border: 2px solid white; */
+    filter: brightness(0) invert(5);
     
 }
 
